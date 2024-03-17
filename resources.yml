@@ -7,5 +7,6 @@ spec:
   containers:
     - name: stress
       image: adityathumburu/stress
+      command: ["sleep", "500"]
 
 
