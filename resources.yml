@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: stress
+  #namespace: roboshop
+spec:
+  containers:
+    - name: stress
+      image: adityathumburu/stress
+
+
